@@ -1,11 +1,743 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
-  <title>Rohit Clinic Digital</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rohit Health Care Center | Dr. Ravi Chauhan</title>
+
+  <meta name="description" content="Rohit Health Care Center, Market Inderpur - Dr. Ravi Chauhan. General medical practice and health consultation.">
+  <meta name="keywords" content="Rohit Health Care Center, Dr Ravi Chauhan, Clinic Inderpur, General Physician, Health Care">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5fbff;
+      color: #18323f;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .topbar {
+      background: #0b7285;
+      color: white;
+      text-align: center;
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+
+    header {
+      background: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 15px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 21px;
+      font-weight: bold;
+      color: #087f8c;
+    }
+
+    .menu {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .menu a {
+      color: #29434e;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .menu a:hover {
+      color: #087f8c;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #e9fbff, #ffffff);
+      padding: 70px 20px;
+    }
+
+    .hero-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+      line-height: 1.15;
+      color: #073b4c;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #0b8f8f;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #45606b;
+    }
+
+    .doctor-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #087f8c;
+      margin: 15px 0;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: #087f8c;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #087f8c;
+      border: 2px solid #087f8c;
+    }
+
+    .hero-card {
+      background: white;
+      border-radius: 25px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0,100,120,0.12);
+    }
+
+    .medical-icon {
+      font-size: 75px;
+      margin-bottom: 15px;
+    }
+
+    .hero-card h3 {
+      color: #073b4c;
+      margin-bottom: 8px;
+    }
+
+    section {
+      padding: 65px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      color: #073b4c;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      color: #607984;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.07);
+    }
+
+    .card h3 {
+      color: #087f8c;
+      margin-bottom: 12px;
+    }
+
+    .services {
+      background: #f5fbff;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .service-card {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+
+    .service-icon {
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+
+    .service-card h3 {
+      color: #073b4c;
+      margin-bottom: 8px;
+    }
+
+    .why {
+      background: white;
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .why-card {
+      padding: 25px;
+      border-radius: 18px;
+      background: #f5fbff;
+      border: 1px solid #dceff3;
+    }
+
+    .why-card h3 {
+      color: #087f8c;
+      margin-bottom: 8px;
+    }
+
+    .health {
+      background: #eefaff;
+    }
+
+    .health-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .health-card {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.06);
+    }
+
+    .appointment {
+      background: linear-gradient(135deg, #087f8c, #075985);
+      color: white;
+    }
+
+    .appointment .section-title h2,
+    .appointment .section-title p {
+      color: white;
+    }
+
+    .appointment-box {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      color: #18323f;
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #cbdde2;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+
+    .form-group textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .contact {
+      background: white;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+
+    .contact-item {
+      margin-bottom: 18px;
+    }
+
+    .contact-item strong {
+      display: block;
+      color: #087f8c;
+      margin-bottom: 3px;
+    }
+
+    .map-box {
+      min-height: 280px;
+      background: #e9f7fa;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .faq {
+      background: #f5fbff;
+    }
+
+    details {
+      background: white;
+      padding: 18px 20px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #073b4c;
+    }
+
+    footer {
+      background: #073b4c;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .floating-buttons {
+      position: fixed;
+      bottom: 18px;
+      right: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 2000;
+    }
+
+    .floating-btn {
+      padding: 12px 17px;
+      border-radius: 30px;
+      background: #087f8c;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 800px) {
+      .nav {
+        flex-direction: column;
+      }
+
+      .menu {
+        gap: 12px;
+      }
+
+      .hero-inner,
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-grid,
+      .why-grid,
+      .health-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding: 50px 18px;
+      }
+
+      .hero h1 {
+        font-size: 35px;
+      }
+
+      .section-title h2 {
+        font-size: 27px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        font-size: 18px;
+      }
+
+      .menu a {
+        font-size: 13px;
+      }
+
+      .hero h1 {
+        font-size: 31px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      section {
+        padding: 50px 15px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Rohit Clinic Digital</h1>
-  <p>Rohit Health Care Center</p>
-  <p>Dr. Ravi Chauhan</p>
-</body>
-</html>
+
+  <div class="topbar">
+    Rohit Health Care Center • Market Inderpur
+  </div>
+
+  <header>
+    <div class="nav">
+      <div class="logo">Rohit Clinic Digital</div>
+
+      <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">Doctor</a>
+        <a href="#services">Services</a>
+        <a href="#health">Health</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+
+        <div>
+          <p>Welcome to</p>
+
+          <h1>
+            Rohit Health<br>
+            <span>Care Center</span>
+          </h1>
+
+          <p>
+            सामान्य स्वास्थ्य एवं चिकित्सा परामर्श के लिए
+            आपका स्थानीय हेल्थ केयर सेंटर।
+          </p>
+
+          <div class="doctor-name">
+            Dr. Ravi Chauhan
+          </div>
+
+          <p>
+            General Medical Practice
+          </p>
+
+          <div class="buttons">
+            <a href="#appointment" class="btn btn-primary">
+              Appointment Enquiry
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              Contact Clinic
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="medical-icon">🩺</div>
+
+          <h3>Rohit Health Care Center</h3>
+
+          <p>
+            General Medical Practice
+          </p>
+
+          <p>
+            📍 Market Inderpur
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About the Doctor</h2>
+          <p>डॉक्टर एवं क्लिनिक के बारे में</p>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="card">
+            <h3>Dr. Ravi Chauhan</h3>
+
+            <p>
+              Dr. Ravi Chauhan Rohit Health Care Center में
+              सामान्य चिकित्सा परामर्श एवं सामान्य स्वास्थ्य
+              समस्याओं के लिए चिकित्सा सेवा प्रदान करते हैं।
+            </p>
+
+            <br>
+
+            <p>
+              अधिक जानकारी या consultation के लिए clinic से
+              संपर्क किया जा सकता है।
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Our Clinic</h3>
+
+            <p>
+              Rohit Health Care Center एक स्थानीय healthcare
+              clinic है, जहाँ सामान्य स्वास्थ्य संबंधी
+              समस्याओं के लिए consultation उपलब्ध है।
+            </p>
+
+            <br>
+
+            <p>
+              <strong>Location:</strong> Market Inderpur
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Clinic Services</h2>
+          <p>हमारी सामान्य स्वास्थ्य सेवाएँ</p>
+        </div>
+
+        <div class="service-grid">
+
+          <div class="service-card">
+            <div class="service-icon">🩺</div>
+            <h3>General Consultation</h3>
+            <p>
+              सामान्य स्वास्थ्य समस्याओं के लिए medical consultation.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🌡️</div>
+            <h3>Fever & Common Illness</h3>
+            <p>
+              बुखार एवं सामान्य बीमारी से संबंधित consultation.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🤧</div>
+            <h3>Cold & Cough</h3>
+            <p>
+              सर्दी, खांसी एवं सामान्य respiratory complaints के लिए consultation.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">❤️</div>
+            <h3>General Health</h3>
+            <p>
+              सामान्य स्वास्थ्य संबंधी समस्याओं पर consultation.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">👨‍⚕️</div>
+            <h3>Health Guidance</h3>
+            <p>
+              स्वास्थ्य से संबंधित सामान्य guidance एवं consultation.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📋</div>
+            <h3>Follow-up</h3>
+            <p>
+              आवश्यकतानुसार follow-up consultation के लिए संपर्क करें।
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- WHY CHOOSE -->
+    <section class="why">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Why Visit Our Clinic?</h2>
+          <p>क्लिनिक की कुछ विशेषताएँ</p>
+        </div>
+
+        <div class="why-grid">
+
+          <div class="why-card">
+            <h3>Local & Accessible</h3>
+            <p>
+              Market Inderpur में स्थानीय healthcare सुविधा।
+            </p>
+          </div>
+
+          <div class="why-card">
+            <h3>Personal Consultation</h3>
+            <p>
+              आपकी समस्या को समझकर सामान्य medical consultation.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <h3>Easy Enquiry</h3>
+            <p>
+              Appointment या clinic information के लिए आसानी से संपर्क करें।
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HEALTH AWARENESS -->
+    <section class="health" id="health">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Health Awareness</h2>
+          <p>स्वास्थ्य के प्रति जागरूक रहें</p>
+        </div>
+
+        <div class="health-grid">
+
+          <div class="health-card">
+            <h3>💧 पर्याप्त पानी</h3>
+            <p>
+              मौसम और अपनी व्यक्तिगत आवश्यकता के अनुसार
+              पर्याप्त पानी पीने की आदत रखें।
+            </p>
+          </div>
+
+          <div class="health-card">
+            <h3>🥗 संतुलित भोजन</h3>
+            <p>
+              संतुलित एवं विविध आहार को अपनी दैनिक जीवनशैली
+              का हिस्सा बनाने का प्रयास करें।
+            </p>
+          </div>
+
+          <div class="health-card">
+            <h3>🚶 नियमित गतिविधि</h3>
+            <p>
+              अपनी क्षमता और स्वास्थ्य स्थिति के अनुसार
+              नियमित physical activity रखें।
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- APPOINTMENT -->
+    <section class="appointment" id="appointment">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Appointment Enquiry</h2>
+          <p>
+            Appointment के लिए अपनी जानकारी भरें।
+          </p>
+        </div>
+
+        <div class="appointment-box">
+
+          <form onsubmit="submitEnquiry(event)">
+
+            <div class="form-group">
+              <label for="name">नाम</label>
+              <input
+                type="
