@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/sitemap.xml
