@@ -2,828 +2,378 @@
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#075e59">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <title>Rohit Health Care Center | Dr. Ravi Chauhan, Indaipur</title>
+  <meta name="description" content="Rohit Health Care Center, Market Indaipur, Ramnagar, Ambedkar Nagar, Uttar Pradesh. Dr. Ravi Chauhan से सामान्य स्वास्थ्य परामर्श के लिए कॉल करें या WhatsApp पर संपर्क करें।">
+  <meta name="keywords" content="Rohit Health Care Center, Rohit Clinic Digital, Dr Ravi Chauhan, clinic in Indaipur, general physician Indaipur, clinic Ramnagar Ambedkar Nagar">
+  <link rel="canonical" href="https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="hi_IN">
+  <meta property="og:site_name" content="Rohit Health Care Center">
+  <meta property="og:title" content="Rohit Health Care Center | Dr. Ravi Chauhan">
+  <meta property="og:description" content="Market Indaipur में सामान्य स्वास्थ्य परामर्श। कॉल करें या WhatsApp पर संपर्क करें।">
+  <meta property="og:url" content="https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/">
+  <meta property="og:image" content="https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/assets/doctor-patient-consultation.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rohit Health Care Center | Dr. Ravi Chauhan">
+  <meta name="twitter:description" content="Market Indaipur, Ramnagar, Ambedkar Nagar में सामान्य स्वास्थ्य परामर्श।">
+  <meta name="twitter:image" content="https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/assets/doctor-patient-consultation.png">
 
-  <title>Rohit Health Care Center | Dr. Ravi Chauhan</title>
-
-  <meta name="description" content="Rohit Health Care Center, Market Indaipur - Dr. Ravi Chauhan. General medical practice and health consultation.">
-  <meta name="keywords" content="Rohit Health Care Center, Dr Ravi Chauhan, Clinic Indaipur, General Physician, Health Care">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5fbff;
-      color: #18323f;
-      line-height: 1.6;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    .topbar {
-      background: #0b7285;
-      color: white;
-      text-align: center;
-      padding: 8px 12px;
-      font-size: 14px;
-    }
-
-    header {
-      background: white;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    }
-
-    .nav {
-      max-width: 1100px;
-      margin: auto;
-      padding: 15px 18px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 15px;
-    }
-
-    .logo {
-      font-size: 21px;
-      font-weight: bold;
-      color: #087f8c;
-    }
-
-    .menu {
-      display: flex;
-      gap: 18px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .menu a {
-      color: #29434e;
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .menu a:hover {
-      color: #087f8c;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, #e9fbff, #ffffff);
-      padding: 70px 20px;
-    }
-
-    .hero-inner {
-      max-width: 1100px;
-      margin: auto;
-      display: grid;
-      grid-template-columns: 1.3fr 0.7fr;
-      gap: 35px;
-      align-items: center;
-    }
-
-    .hero h1 {
-      font-size: 46px;
-      line-height: 1.15;
-      color: #073b4c;
-      margin-bottom: 18px;
-    }
-
-    .hero h1 span {
-      color: #0b8f8f;
-    }
-
-    .hero p {
-      font-size: 18px;
-      margin-bottom: 12px;
-      color: #45606b;
-    }
-
-    .doctor-name {
-      font-size: 24px;
-      font-weight: bold;
-      color: #087f8c;
-      margin: 15px 0;
-    }
-
-    .buttons {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 25px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 13px 22px;
-      border-radius: 30px;
-      font-weight: bold;
-      font-size: 15px;
-      border: none;
-      cursor: pointer;
-    }
-
-    .btn-primary {
-      background: #087f8c;
-      color: white;
-    }
-
-    .btn-secondary {
-      background: white;
-      color: #087f8c;
-      border: 2px solid #087f8c;
-    }
-
-    .hero-card {
-      background: white;
-      border-radius: 25px;
-      padding: 35px 25px;
-      text-align: center;
-      box-shadow: 0 10px 35px rgba(0,100,120,0.12);
-    }
-
-    .medical-icon {
-      font-size: 75px;
-      margin-bottom: 15px;
-    }
-
-    .hero-card h3 {
-      color: #073b4c;
-      margin-bottom: 8px;
-    }
-
-    section {
-      padding: 65px 20px;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .section-title h2 {
-      font-size: 32px;
-      color: #073b4c;
-      margin-bottom: 10px;
-    }
-
-    .section-title p {
-      color: #607984;
-    }
-
-    .about {
-      background: white;
-    }
-
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-    }
-
-    .card {
-      background: white;
-      padding: 28px;
-      border-radius: 18px;
-      box-shadow: 0 6px 25px rgba(0,0,0,0.07);
-    }
-
-    .card h3 {
-      color: #087f8c;
-      margin-bottom: 12px;
-    }
-
-    .services {
-      background: #f5fbff;
-    }
-
-    .service-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .service-card {
-      background: white;
-      padding: 25px;
-      border-radius: 18px;
-      text-align: center;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-    }
-
-    .service-icon {
-      font-size: 40px;
-      margin-bottom: 12px;
-    }
-
-    .service-card h3 {
-      color: #073b4c;
-      margin-bottom: 8px;
-    }
-
-    .why {
-      background: white;
-    }
-
-    .why-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .why-card {
-      padding: 25px;
-      border-radius: 18px;
-      background: #f5fbff;
-      border: 1px solid #dceff3;
-    }
-
-    .why-card h3 {
-      color: #087f8c;
-      margin-bottom: 8px;
-    }
-
-    .health {
-      background: #eefaff;
-    }
-
-    .health-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .health-card {
-      background: white;
-      padding: 25px;
-      border-radius: 18px;
-      box-shadow: 0 5px 18px rgba(0,0,0,0.06);
-    }
-
-    .appointment {
-      background: linear-gradient(135deg, #087f8c, #075985);
-      color: white;
-    }
-
-    .appointment .section-title h2,
-    .appointment .section-title p {
-      color: white;
-    }
-
-    .appointment-box {
-      max-width: 700px;
-      margin: auto;
-      background: white;
-      color: #18323f;
-      padding: 30px;
-      border-radius: 20px;
-    }
-
-    .form-group {
-      margin-bottom: 16px;
-    }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 6px;
-      font-weight: bold;
-    }
-
-    .form-group input,
-    .form-group textarea {
-      width: 100%;
-      padding: 13px;
-      border: 1px solid #cbdde2;
-      border-radius: 10px;
-      font-size: 15px;
-    }
-
-    .form-group textarea {
-      min-height: 110px;
-      resize: vertical;
-    }
-
-    .contact {
-      background: white;
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 25px;
-    }
-
-    .contact-item {
-      margin-bottom: 18px;
-    }
-
-    .contact-item strong {
-      display: block;
-      color: #087f8c;
-      margin-bottom: 3px;
-    }
-
-    .map-box {
-      min-height: 280px;
-      background: #e9f7fa;
-      border-radius: 18px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 25px;
-    }
-
-    .faq {
-      background: #f5fbff;
-    }
-
-    details {
-      background: white;
-      padding: 18px 20px;
-      border-radius: 12px;
-      margin-bottom: 12px;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
-    }
-
-    summary {
-      cursor: pointer;
-      font-weight: bold;
-      color: #073b4c;
-    }
-
-    footer {
-      background: #073b4c;
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    footer p {
-      margin: 5px 0;
-      font-size: 14px;
-    }
-
-    .floating-buttons {
-      position: fixed;
-      bottom: 18px;
-      right: 18px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      z-index: 2000;
-    }
-
-    .floating-btn {
-      padding: 12px 17px;
-      border-radius: 30px;
-      background: #087f8c;
-      color: white;
-      font-weight: bold;
-      box-shadow: 0 5px 18px rgba(0,0,0,0.2);
-    }
-
-    @media (max-width: 800px) {
-      .nav {
-        flex-direction: column;
-      }
-
-      .menu {
-        gap: 12px;
-      }
-
-      .hero-inner,
-      .about-grid,
-      .contact-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .service-grid,
-      .why-grid,
-      .health-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero {
-        padding: 50px 18px;
-      }
-
-      .hero h1 {
-        font-size: 35px;
-      }
-
-      .section-title h2 {
-        font-size: 27px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .logo {
-        font-size: 18px;
-      }
-
-      .menu a {
-        font-size: 13px;
-      }
-
-      .hero h1 {
-        font-size: 31px;
-      }
-
-      .hero p {
-        font-size: 16px;
-      }
-
-      section {
-        padding: 50px 15px;
-      }
-    }
+    :root{--green:#08766f;--green-dark:#07524f;--mint:#e8f7f3;--gold:#f4bd63;--ink:#183331;--muted:#607674;--paper:#f7fbfa;--white:#fff;--line:#dcebe7;--shadow:0 18px 55px rgba(7,82,79,.12);--radius:24px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Hind",sans-serif;line-height:1.65}
+    img{display:block;width:100%;height:auto}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit}
+    .wrap{width:min(1160px,92%);margin-inline:auto}
+    .topline{background:var(--green-dark);color:#eafff9;font-size:.91rem;padding:8px 0}
+    .topline .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .navrow{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;min-width:0}
+    .brandmark{width:48px;height:48px;display:grid;place-items:center;background:linear-gradient(145deg,var(--green),#11a99a);color:white;border-radius:15px;font-size:1.55rem;box-shadow:0 8px 20px #08766f35;flex-shrink:0}
+    .brandname{font-family:Manrope,sans-serif;font-weight:800;font-size:1rem;line-height:1.25;letter-spacing:-.3px}
+    .brandname small{display:block;font-family:Hind,sans-serif;font-size:.84rem;font-weight:500;color:var(--muted);letter-spacing:0}
+    .navlinks{display:flex;align-items:center;gap:22px;font-weight:600;font-size:.97rem}
+    .navlinks a:hover{color:var(--green)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:999px;padding:13px 21px;font-weight:700;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--green);color:white;box-shadow:0 9px 22px #08766f2b}
+    .btn-primary:hover{background:var(--green-dark)}
+    .btn-light{background:white;color:var(--green-dark);border:1px solid var(--line)}
+    .btn-gold{background:var(--gold);color:#3e2a0c}
+    .hero{position:relative;overflow:hidden;padding:65px 0 72px;background:radial-gradient(circle at 10% 20%,#d6f3e9 0,transparent 35%),linear-gradient(120deg,#f4fbf8,#eaf7f5 65%,#fff8eb)}
+    .hero:after{content:"";position:absolute;right:-100px;top:-110px;width:360px;height:360px;border-radius:50%;border:1px solid #08766f20;box-shadow:0 0 0 35px #08766f08,0 0 0 75px #08766f05}
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:52px;position:relative;z-index:1}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);color:var(--green-dark);padding:7px 13px;border-radius:999px;font-size:.9rem;font-weight:700}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-family:Manrope,Hind,sans-serif;font-size:clamp(2.2rem,5vw,4.15rem);line-height:1.12;letter-spacing:-1.8px;margin:20px 0}
+    h1 span{color:var(--green)}
+    .hero-copy{font-size:1.13rem;color:#506c68;max-width:590px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0}
+    .quickfacts{display:flex;gap:18px;flex-wrap:wrap;color:#48635f;font-size:.94rem}
+    .quickfacts span{display:flex;gap:7px;align-items:center}
+    .hero-visual{position:relative}
+    .hero-photo{height:450px;object-fit:cover;border-radius:34px;box-shadow:var(--shadow);border:8px solid white}
+    .floating-note{position:absolute;left:-24px;bottom:26px;background:white;padding:16px 19px;border-radius:18px;box-shadow:var(--shadow);max-width:240px}
+    .floating-note strong{display:block;color:var(--green-dark);font-size:1.05rem}
+    .floating-note small{color:var(--muted)}
+    .round-icon{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:14px;background:var(--mint);font-size:1.3rem;margin-bottom:9px}
+    section{padding:76px 0}
+    .section-head{text-align:center;max-width:720px;margin:0 auto 38px}
+    .kicker{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:1.5px;font-size:.83rem}
+    h2{font-size:clamp(1.8rem,3.5vw,2.65rem);line-height:1.2;letter-spacing:-.6px;margin:9px 0 14px}
+    .section-head p{color:var(--muted);font-size:1.05rem;margin-bottom:0}
+    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:center}
+    .about-photo{height:420px;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .about-copy p{color:var(--muted)}
+    .check-list{padding:0;margin:22px 0;list-style:none;display:grid;gap:12px}
+    .check-list li{display:flex;gap:10px;align-items:flex-start}
+    .check{color:var(--green);font-weight:800}
+    .services{background:#eef8f5}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .service-card,.info-card{background:white;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 8px 28px #123f3510;transition:transform .2s,box-shadow .2s}
+    .service-card:hover,.info-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+    .service-card img{height:205px;object-fit:cover}
+    .card-content{padding:22px}
+    .card-content h3{font-size:1.23rem;margin:5px 0 8px}
+    .card-content p{color:var(--muted);margin-bottom:0}
+    .notice{font-size:.91rem;color:#58716c;background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px 17px;margin-top:24px}
+    .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .info-card{padding:23px 20px}
+    .info-card h3{font-size:1.08rem;margin:8px 0}
+    .info-card p{font-size:.96rem;color:var(--muted);margin:0}
+    .appointment{background:linear-gradient(135deg,#07524f,#08766f);color:white;position:relative;overflow:hidden}
+    .appointment:before{content:"";position:absolute;width:360px;height:360px;border:1px solid #ffffff25;border-radius:50%;left:-140px;top:-150px;box-shadow:0 0 0 40px #ffffff08,0 0 0 80px #ffffff05}
+    .appointment-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:center;position:relative}
+    .appointment .kicker{color:#b4f1df}
+    .appointment-copy p{color:#d5f0e8}
+    .appointment-points{display:grid;gap:13px;margin-top:25px}
+    .appointment-points span{display:flex;align-items:center;gap:10px}
+    .formbox{background:white;color:var(--ink);padding:30px;border-radius:27px;box-shadow:0 24px 60px #002e2b35}
+    .formbox h3{font-size:1.45rem;margin-bottom:5px}
+    .formbox>p{color:var(--muted);font-size:.94rem}
+    .formgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+    .field{display:grid;gap:6px;margin-bottom:15px}
+    .field.full{grid-column:1/-1}
+    label{font-weight:700;font-size:.94rem}
+    input,select,textarea{width:100%;border:1px solid #cfe0dc;border-radius:12px;padding:12px 13px;background:#fbfefd;color:var(--ink);outline:none}
+    input:focus,select:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px #08766f17}
+    textarea{min-height:100px;resize:vertical}
+    .formbox .btn{width:100%}
+    .form-note{font-size:.83rem!important;color:#6a7f7b!important;margin:12px 0 0!important}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .contact-card{padding:28px;background:white;border:1px solid var(--line);border-radius:var(--radius)}
+    .contact-row{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+    .contact-row:last-child{border-bottom:0}
+    .contact-row strong{display:block}
+    .contact-row small{color:var(--muted)}
+    .mapframe{border:0;width:100%;height:340px;border-radius:var(--radius);background:#e5f0ec}
+    .faq{background:#eef8f5}
+    .faq-list{max-width:850px;margin:auto;display:grid;gap:12px}
+    details{background:white;border:1px solid var(--line);border-radius:15px;padding:17px 20px}
+    summary{font-weight:700;cursor:pointer}
+    details p{margin:12px 0 0;color:var(--muted)}
+    .disclaimer{background:#fff8e9;border:1px solid #f0dfb8;color:#6b5830;border-radius:16px;padding:18px;margin-top:26px;font-size:.92rem}
+    footer{background:#063e3c;color:#d6eeea;padding:35px 0 90px}
+    .footergrid{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;align-items:center}
+    footer p{margin:5px 0;color:#b7d7d1;font-size:.91rem}
+    .footerlinks{display:flex;gap:16px;flex-wrap:wrap}
+    .floating{position:fixed;z-index:60;right:18px;bottom:18px;display:flex;flex-direction:column;gap:10px}
+    .floatbtn{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;color:white;font-size:1.5rem;box-shadow:0 8px 24px #002b2940;border:2px solid white}
+    .float-call{background:#08766f}.float-wa{background:#1ebd66}
+    .mobilebar{display:none}
+    .small{font-size:.9rem;color:var(--muted)}
+    @media(max-width:900px){.navlinks{gap:12px;font-size:.9rem}.hero-grid{gap:28px}.hero-photo{height:390px}.why-grid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:680px){
+      .topline .wrap{justify-content:center;text-align:center}.navrow{min-height:68px}.brandmark{width:42px;height:42px}.brandname{font-size:.88rem}.navlinks{display:none}
+      .hero{padding:42px 0 52px}.hero-grid,.about-grid,.appointment-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.hero-grid{display:flex;flex-direction:column}.hero-copy{font-size:1.04rem}.hero-photo{height:300px;border-radius:25px}.floating-note{left:10px;bottom:14px;padding:12px 14px}
+      section{padding:56px 0}.about-photo{height:300px}.cards{grid-template-columns:1fr}.service-card img{height:220px}.why-grid{grid-template-columns:1fr 1fr;gap:12px}.info-card{padding:17px 14px}.formbox{padding:22px 17px}.formgrid{grid-template-columns:1fr;gap:0}.field.full{grid-column:auto}.mapframe{height:280px}.floating{display:none}.mobilebar{display:grid;grid-template-columns:1fr 1fr;gap:9px;position:fixed;z-index:70;bottom:0;left:0;right:0;background:#fff;padding:10px 12px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -5px 25px #063e3c1b;border-top:1px solid var(--line)}.mobilebar .btn{padding:11px 9px;font-size:.94rem}footer{padding-bottom:35px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"MedicalClinic",
+    "name":"Rohit Health Care Center",
+    "alternateName":"Rohit Clinic Digital",
+    "url":"https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/",
+    "telephone":"+91-9621216695",
+    "medicalSpecialty":"PrimaryCare",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Market Indaipur",
+      "addressLocality":"Ramnagar",
+      "addressRegion":"Uttar Pradesh",
+      "addressCountry":"IN"
+    },
+    "openingHours":"Mo-Su 09:00-20:00",
+    "image":"https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/assets/doctor-patient-consultation.png"
+  }
+  </script>
 </head>
-
 <body>
-
-  <div class="topbar">
-    Rohit Health Care Center • Market Indaipur 
+  <div class="topline">
+    <div class="wrap"><span>🩺 सामान्य स्वास्थ्य परामर्श</span><span>🕘 रोज़ाना: सुबह 9:00 बजे – रात 8:00 बजे</span></div>
   </div>
 
-  <header>
-    <div class="nav">
-      <div class="logo">Rohit Clinic Digital</div>
-
-      <nav class="menu">
-        <a href="#home">Home</a>
-        <a href="#about">Doctor</a>
-        <a href="#services">Services</a>
-        <a href="#health">Health</a>
-        <a href="#appointment">Appointment</a>
-        <a href="#contact">Contact</a>
+  <header class="header">
+    <div class="wrap navrow">
+      <a class="brand" href="#home" aria-label="Rohit Health Care Center होम">
+        <span class="brandmark">✚</span>
+        <span class="brandname">ROHIT HEALTH CARE CENTER<small>Rohit Clinic Digital · Dr. Ravi Chauhan</small></span>
+      </a>
+      <nav class="navlinks" aria-label="मुख्य मेन्यू">
+        <a href="#home">होम</a><a href="#about">हमारे बारे में</a><a href="#services">सेवाएँ</a><a href="#appointment">अपॉइंटमेंट</a><a href="#contact">संपर्क</a>
       </nav>
+      <a class="btn btn-primary" href="tel:+919621216695">☎ कॉल करें</a>
     </div>
   </header>
 
   <main>
-
-    <!-- HOME -->
     <section class="hero" id="home">
-      <div class="hero-inner">
-
+      <div class="wrap hero-grid">
         <div>
-          <p>Welcome to</p>
-
-          <h1>
-            Rohit Health<br>
-            <span>Care Center</span>
-          </h1>
-
-          <p>
-            सामान्य स्वास्थ्य एवं चिकित्सा परामर्श के लिए
-            आपका स्थानीय हेल्थ केयर सेंटर।
-          </p>
-
-          <div class="doctor-name">
-            Dr. Ravi Chauhan
+          <span class="eyebrow">🌿 आपकी सेहत, हमारी प्राथमिकता</span>
+          <h1>स्वस्थ जीवन की ओर<br><span>एक भरोसेमंद कदम</span></h1>
+          <p class="hero-copy">Rohit Health Care Center में सामान्य स्वास्थ्य समस्याओं के लिए जानकारी और परामर्श हेतु संपर्क करें। आपकी सुविधा के लिए कॉल और WhatsApp दोनों विकल्प उपलब्ध हैं।</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+919621216695">☎ अभी कॉल करें</a>
+            <a class="btn btn-gold" href="https://wa.me/919621216695?text=Namaste%2C%20mujhe%20Rohit%20Health%20Care%20Center%20se%20sampark%20karna%20hai." target="_blank" rel="noopener">☘ WhatsApp करें</a>
           </div>
-
-          <p>
-            General Medical Practice
-          </p>
-
-          <div class="buttons">
-            <a href="#appointment" class="btn btn-primary">
-              Appointment Enquiry
-            </a>
-
-            <a href="#contact" class="btn btn-secondary">
-              Contact Clinic
-            </a>
-          </div>
+          <div class="quickfacts"><span>✓ आसान संपर्क</span><span>✓ Indaipur Market</span><span>✓ रोज़ 9 AM–8 PM</span></div>
         </div>
-
-        <div class="hero-card">
-          <div class="medical-icon">🩺</div>
-
-          <h3>Rohit Health Care Center</h3>
-
-          <p>
-            General Medical Practice
-          </p>
-
-          <p>
-            📍 Market Indaipur 
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- ABOUT -->
-    <section class="about" id="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About the Doctor</h2>
-          <p>डॉक्टर एवं क्लिनिक के बारे में</p>
-        </div>
-
-        <div class="about-grid">
-
-          <div class="card">
-            <h3>Dr. Ravi Chauhan</h3>
-
-            <p>
-              Dr. Ravi Chauhan Rohit Health Care Center में
-              सामान्य चिकित्सा परामर्श एवं सामान्य स्वास्थ्य
-              समस्याओं के लिए चिकित्सा सेवा प्रदान करते हैं।
-            </p>
-
-            <br>
-
-            <p>
-              अधिक जानकारी या consultation के लिए clinic से
-              संपर्क किया जा सकता है।
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Our Clinic</h3>
-
-            <p>
-              Rohit Health Care Center एक स्थानीय healthcare
-              clinic है, जहाँ सामान्य स्वास्थ्य संबंधी
-              समस्याओं के लिए consultation उपलब्ध है।
-            </p>
-
-            <br>
-
-            <p>
-              <strong>Location:</strong> Market Indaipur 
-            </p>
-          </div>
-
+        <div class="hero-visual">
+          <img class="hero-photo" src="assets/doctor-patient-consultation.png" alt="Rohit Health Care Center में डॉक्टर और मरीज के बीच परामर्श का उदाहरणात्मक दृश्य" fetchpriority="high">
+          <div class="floating-note"><span class="round-icon">💚</span><strong>आपकी सेहत सबसे ज़रूरी</strong><small>सही समय पर सलाह लें और ज़रूरत पड़ने पर चिकित्सक से मिलें।</small></div>
         </div>
       </div>
     </section>
 
+    <section id="about">
+      <div class="wrap about-grid">
+        <img class="about-photo" src="assets/rohit-ravi-chauhan.jpg" alt="Ravi Chauhan की फोटो" loading="lazy">
+        <div class="about-copy">
+          <span class="kicker">हमारे बारे में</span>
+          <h2>Rohit Health Care Center</h2>
+          <p><strong>Dr. Ravi Chauhan</strong> · Market Indaipur, Ramnagar, Ambedkar Nagar, Uttar Pradesh</p>
+          <p>हमारा उद्देश्य लोगों को सामान्य स्वास्थ्य संबंधी परामर्श के लिए संपर्क का एक सरल माध्यम देना है। क्लिनिक आने से पहले फोन करके उपलब्धता और अपनी ज़रूरत की जानकारी प्राप्त कर सकते हैं।</p>
+          <ul class="check-list">
+            <li><span class="check">✓</span><span>क्लिनिक से संपर्क करने के लिए सीधा कॉल बटन</span></li>
+            <li><span class="check">✓</span><span>WhatsApp पर पूछताछ और अपॉइंटमेंट अनुरोध</span></li>
+            <li><span class="check">✓</span><span>पता खोजने के लिए Google Maps लिंक</span></li>
+            <li><span class="check">✓</span><span>मोबाइल, टैबलेट और कंप्यूटर के लिए responsive वेबसाइट</span></li>
+          </ul>
+          <a class="btn btn-primary" href="#appointment">अपॉइंटमेंट अनुरोध भेजें →</a>
+        </div>
+      </div>
+    </section>
 
-    <!-- SERVICES -->
     <section class="services" id="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Clinic Services</h2>
-          <p>हमारी सामान्य स्वास्थ्य सेवाएँ</p>
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">स्वास्थ्य जानकारी</span><h2>हम किन विषयों पर संपर्क में मदद कर सकते हैं?</h2><p>नीचे सामान्य स्वास्थ्य विषयों के उदाहरण हैं। उचित जाँच और इलाज का निर्णय योग्य स्वास्थ्य पेशेवर द्वारा किया जाना चाहिए।</p></div>
+        <div class="cards">
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="बुखार और संक्रमण से बचाव की स्वास्थ्य जानकारी" loading="lazy">
+            <div class="card-content"><span class="round-icon">🌡️</span><h3>बुखार और वायरल लक्षण</h3><p>बुखार, बदन दर्द या कमजोरी होने पर सलाह लें। तेज़ बुखार या बिगड़ते लक्षणों को नज़रअंदाज़ न करें।</p></div>
+          </article>
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80" alt="सर्दी खाँसी और श्वसन स्वास्थ्य" loading="lazy">
+            <div class="card-content"><span class="round-icon">😷</span><h3>सर्दी, खाँसी और गले की परेशानी</h3><p>सर्दी, खाँसी या गले में तकलीफ़ हो तो अपनी स्थिति बताकर परामर्श के लिए संपर्क करें।</p></div>
+          </article>
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80" alt="रक्तचाप और नियमित स्वास्थ्य जाँच" loading="lazy">
+            <div class="card-content"><span class="round-icon">❤️</span><h3>सामान्य स्वास्थ्य जाँच</h3><p>सामान्य स्वास्थ्य संबंधी सवालों, नियमित देखभाल और आगे की जाँच की ज़रूरत पर मार्गदर्शन के लिए संपर्क करें।</p></div>
+          </article>
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80" alt="संतुलित भोजन और स्वस्थ दिनचर्या" loading="lazy">
+            <div class="card-content"><span class="round-icon">🥗</span><h3>खानपान और दिनचर्या</h3><p>संतुलित आहार, पर्याप्त पानी, आराम और व्यक्तिगत स्वास्थ्य के अनुसार दिनचर्या बनाए रखने की जानकारी।</p></div>
+          </article>
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" alt="आराम और तनाव प्रबंधन" loading="lazy">
+            <div class="card-content"><span class="round-icon">🌿</span><h3>आराम और स्वस्थ आदतें</h3><p>पर्याप्त नींद, नियमित गतिविधि और तनाव कम करने वाली स्वस्थ आदतों पर सामान्य जानकारी।</p></div>
+          </article>
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80" alt="डॉक्टर से स्वास्थ्य संबंधी बातचीत" loading="lazy">
+            <div class="card-content"><span class="round-icon">🩺</span><h3>परामर्श के लिए संपर्क</h3><p>क्लिनिक आने का समय पूछें, उपलब्धता जानें या अपॉइंटमेंट अनुरोध WhatsApp पर भेजें।</p></div>
+          </article>
         </div>
-
-        <div class="service-grid">
-
-          <div class="service-card">
-            <div class="service-icon">🩺</div>
-            <h3>General Consultation</h3>
-            <p>
-              सामान्य स्वास्थ्य समस्याओं के लिए medical consultation.
-            </p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">🌡️</div>
-            <h3>Fever & Common Illness</h3>
-            <p>
-              बुखार एवं सामान्य बीमारी से संबंधित consultation.
-            </p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">🤧</div>
-            <h3>Cold & Cough</h3>
-            <p>
-              सर्दी, खांसी एवं सामान्य respiratory complaints के लिए consultation.
-            </p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">❤️</div>
-            <h3>General Health</h3>
-            <p>
-              सामान्य स्वास्थ्य संबंधी समस्याओं पर consultation.
-            </p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">👨‍⚕️</div>
-            <h3>Health Guidance</h3>
-            <p>
-              स्वास्थ्य से संबंधित सामान्य guidance एवं consultation.
-            </p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">📋</div>
-            <h3>Follow-up</h3>
-            <p>
-              आवश्यकतानुसार follow-up consultation के लिए संपर्क करें।
-            </p>
-          </div>
-
-        </div>
+        <div class="notice">ℹ️ ये सामान्य जानकारी वाले विषय हैं, किसी विशेष उपचार, जाँच, सुविधा या परिणाम की गारंटी नहीं। उपलब्ध सेवाओं की पुष्टि के लिए क्लिनिक से फोन पर बात करें।</div>
       </div>
     </section>
 
-
-    <!-- WHY CHOOSE -->
-    <section class="why">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Why Visit Our Clinic?</h2>
-          <p>क्लिनिक की कुछ विशेषताएँ</p>
-        </div>
-
+    <section>
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">संपर्क आसान बनाएँ</span><h2>आपके लिए सरल और सुविधाजनक</h2><p>वेबसाइट से सीधे संपर्क करें—किसी अतिरिक्त ऐप की ज़रूरत नहीं, WhatsApp खुलने के लिए आपके फोन में WhatsApp होना चाहिए।</p></div>
         <div class="why-grid">
-
-          <div class="why-card">
-            <h3>Local & Accessible</h3>
-            <p>
-              Market Indaipur में स्थानीय healthcare सुविधा।
-            </p>
-          </div>
-
-          <div class="why-card">
-            <h3>Personal Consultation</h3>
-            <p>
-              आपकी समस्या को समझकर सामान्य medical consultation.
-            </p>
-          </div>
-
-          <div class="why-card">
-            <h3>Easy Enquiry</h3>
-            <p>
-              Appointment या clinic information के लिए आसानी से संपर्क करें।
-            </p>
-          </div>
-
+          <article class="info-card"><span class="round-icon">📞</span><h3>एक टैप में कॉल</h3><p>कॉल बटन दबाकर सीधे 9621216695 पर फोन करें।</p></article>
+          <article class="info-card"><span class="round-icon">💬</span><h3>WhatsApp संपर्क</h3><p>संदेश तैयार करके WhatsApp चैट खोलें और भेजने से पहले जाँच लें।</p></article>
+          <article class="info-card"><span class="round-icon">📍</span><h3>लोकेशन देखें</h3><p>Google Maps पर Market Indaipur खोजने के लिए लिंक खोलें।</p></article>
+          <article class="info-card"><span class="round-icon">📱</span><h3>मोबाइल फ्रेंडली</h3><p>बड़े बटन और साफ़ टेक्स्ट के साथ मोबाइल पर आसानी से इस्तेमाल करें।</p></article>
         </div>
       </div>
     </section>
 
-
-    <!-- HEALTH AWARENESS -->
-    <section class="health" id="health">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Health Awareness</h2>
-          <p>स्वास्थ्य के प्रति जागरूक रहें</p>
-        </div>
-
-        <div class="health-grid">
-
-          <div class="health-card">
-            <h3>💧 पर्याप्त पानी</h3>
-            <p>
-              मौसम और अपनी व्यक्तिगत आवश्यकता के अनुसार
-              पर्याप्त पानी पीने की आदत रखें।
-            </p>
-          </div>
-
-          <div class="health-card">
-            <h3>🥗 संतुलित भोजन</h3>
-            <p>
-              संतुलित एवं विविध आहार को अपनी दैनिक जीवनशैली
-              का हिस्सा बनाने का प्रयास करें।
-            </p>
-          </div>
-
-          <div class="health-card">
-         <!DOCTYPE html>
-<html lang="hi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rohit Health Care Center | Dr. Ravi Chauhan</title>
-<meta name="description" content="Rohit Health Care Center, Market Indaipur - Dr. Ravi Chauhan. General medical consultation.">
-<style>
-*{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5fbff;color:#18323f;line-height:1.6}
-a{text-decoration:none}
-.topbar{background:#087f8c;color:#fff;text-align:center;padding:8px;font-size:14px}
-header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #00000014}
-.nav{max-width:1100px;margin:auto;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:15px}
-.logo{font-size:21px;font-weight:bold;color:#087f8c}
-.menu{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
-.menu a{color:#29434e;font-size:14px;font-weight:600}
-.hero{background:linear-gradient(135deg,#e9fbff,#fff);padding:55px 18px}
-.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center}
-.hero h1{font-size:45px;line-height:1.15;color:#073b4c;margin:10px 0 18px}
-.hero h1 span{color:#0b8f8f}
-.hero p{font-size:18px;color:#45606b}
-.doctor{font-size:25px;font-weight:bold;color:#087f8c;margin:16px 0}
-.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
-.btn{display:inline-block;padding:13px 22px;border-radius:30px;font-weight:bold;font-size:15px;cursor:pointer}
-.primary{background:#087f8c;color:#fff}
-.secondary{background:#fff;color:#087f8c;border:2px solid #087f8c}
-.hero-card,.card,.form-box{background:#fff;border-radius:20px;box-shadow:0 8px 28px #00647818}
-.hero-card{text-align:center;padding:35px 25px}
-.icon{font-size:70px}
-section{padding:60px 18px}
-.container{max-width:1100px;margin:auto}
-.title{text-align:center;margin-bottom:35px}
-.title h2{font-size:31px;color:#073b4c;margin:0 0 8px}
-.title p{color:#607984}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{padding:25px}
-.card h3{color:#087f8c;margin-top:0}
-.appointment{background:linear-gradient(135deg,#087f8c,#075985);color:#fff}
-.appointment .title h2,.appointment .title p{color:#fff}
-.form-box{max-width:700px;margin:auto;padding:28px;color:#18323f}
-.field{margin-bottom:16px}
-.field label{display:block;font-weight:bold;margin-bottom:6px}
-.field input,.field textarea,.field select{width:100%;padding:13px;border:1px solid #cbdde2;border-radius:10px;font-size:15px}
-.field textarea{min-height:110px;resize:vertical}
-.submit{width:100%;border:0;background:#087f8c;color:#fff;padding:14px;border-radius:30px;font-weight:bold;font-size:16px}
-.contact{background:#fff}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
-.contact-link{display:inline-block;margin-top:8px;padding:11px 17px;border-radius:25px;background:#087f8c;color:#fff;font-weight:bold}
-.call{background:#075985}
-.map{min-height:260px;background:#e9f7fa;border-radius:18px;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px}
-.faq{background:#f5fbff}
-details{background:#fff;padding:17px 20px;border-radius:12px;margin-bottom:12px}
-summary{cursor:pointer;font-weight:bold;color:#073b4c}
-footer{background:#073b4c;color:#fff;text-align:center;padding:28px 18px}
-.float{position:fixed;right:16px;bottom:16px;z-index:20;background:#087f8c;color:#fff;padding:13px 18px;border-radius:30px;font-weight:bold;box-shadow:0 5px 18px #0003}
-@media(max-width:800px){.nav{flex-direction:column}.hero-inner,.contact-grid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.hero h1{font-size:35px}.menu{gap:12px}section{padding:50px 15px}}
-@media(max-width:480px){.logo{font-size:18px}.menu a{font-size:13px}.hero h1{font-size:31px}}
-</style>
-</head>
-<body>
-<div class="topbar">Rohit Health Care Center • Market Indaipur • Call: 9621216695</div>
-<header><div class="nav"><div class="logo">Rohit Clinic Digital</div><nav class="menu"><a href="#home">Home</a><a href="#about">Doctor</a><a href="#services">Services</a><a href="#health">Health</a><a href="#appointment">Appointment</a><a href="#contact">Contact</a></nav></div></header>
-<main>
-<section class="hero" id="home"><div class="hero-inner"><div><p>Welcome to</p><h1>Rohit Health<br><span>Care Center</span></h1><p>सामान्य स्वास्थ्य एवं चिकित्सा परामर्श के लिए आपका स्थानीय हेल्थ केयर सेंटर।</p><div class="doctor">Dr. Ravi Chauhan</div><p>General Medical Practice</p><div class="buttons"><a href="#appointment" class="btn primary">Appointment Enquiry</a><a href="https://wa.me/919621216695?text=Namaste%20Dr.%20Ravi%20Chauhan%2C%20mujhe%20clinic%20ke%20baare%20mein%20jaankari%20chahiye." class="btn secondary">WhatsApp Clinic</a></div></div><div class="hero-card"><div class="icon">🩺</div><h3>Rohit Health Care Center</h3><p>General Medical Practice</p><p>📍 Market Indaipur</p><p>📞 <a href="tel:+919621216695">9621216695</a></p></div></div></section>
-<section id="about"><div class="container"><div class="title"><h2>About the Doctor</h2><p>डॉक्टर एवं क्लिनिक के बारे में</p></div><div class="grid"><div class="card"><h3>Dr. Ravi Chauhan</h3><p>Rohit Health Care Center में सामान्य चिकित्सा परामर्श एवं सामान्य स्वास्थ्य समस्याओं के लिए चिकित्सा सेवा उपलब्ध है।</p></div><div class="card"><h3>Our Clinic</h3><p>स्थानीय मरीजों के लिए सामान्य स्वास्थ्य consultation और आवश्यक मार्गदर्शन।</p></div><div class="card"><h3>Location</h3><p>📍 Market Indaipur</p><p>क्लिनिक से संपर्क के लिए नीचे Call या WhatsApp बटन दबाएँ।</p></div></div></div></section>
-<section id="services"><div class="container"><div class="title"><h2>Clinic Services</h2><p>हमारी सामान्य स्वास्थ्य सेवाएँ</p></div><div class="grid"><div class="card"><h3>🩺 General Consultation</h3><p>सामान्य स्वास्थ्य समस्याओं के लिए consultation।</p></div><div class="card"><h3>🌡️ Common Illness</h3><p>बुखार, सर्दी, खाँसी जैसी सामान्य समस्याओं के लिए परामर्श।</p></div><div class="card"><h3>💬 Health Guidance</h3><p>स्वास्थ्य संबंधी जानकारी और आगे की चिकित्सा सलाह के लिए संपर्क।</p></div></div></div></section>
-<section id="health" style="background:#eefaff"><div class="container"><div class="title"><h2>Health Information</h2><p>स्वास्थ्य संबंधी सामान्य जानकारी</p></div><div class="grid"><div class="card"><h3>पानी और आराम</h3><p>बीमारी के दौरान पर्याप्त पानी और आराम पर ध्यान दें।</p></div><div class="card"><h3>समय पर परामर्श</h3><p>लक्षण बने रहें या बढ़ें तो health professional से सलाह लें।</p></div><div class="card"><h3>Emergency</h3><p>गंभीर या आपात स्थिति में स्थानीय emergency medical service से तुरंत संपर्क करें।</p></div></div></div></section>
-<section class="appointment" id="appointment"><div class="container"><div class="title"><h2>Appointment Enquiry</h2><p>नीचे जानकारी भरें और WhatsApp पर सीधे भेजें</p></div><div class="form-box"><form onsubmit="sendWhatsApp(event)"><div class="field"><label for="name">आपका नाम</label><input id="name" required placeholder="अपना नाम लिखें"></div><div class="field"><label for="phone">मोबाइल नंबर</label><input id="phone" required type="tel" inputmode="numeric" placeholder="अपना मोबाइल नंबर लिखें"></div><div class="field"><label for="problem">समस्या / पूछताछ</label><textarea id="problem" required placeholder="अपनी समस्या या पूछताछ यहाँ लिखें"></textarea></div><div class="field"><label for="time">पसंदीदा समय</label><select id="time"><option>कोई भी समय</option><option>सुबह</option><option>दोपहर</option><option>शाम</option></select></div><button class="submit" type="submit">📲 WhatsApp पर Appointment भेजें</button></form></div></div></section>
-<section class="contact" id="contact"><div class="container"><div class="title"><h2>Contact Clinic</h2><p>क्लिनिक से सीधे संपर्क करें</p></div><div class="contact-grid"><div class="card"><h3>Rohit Health Care Center</h3><p><strong>Doctor:</strong> Dr. Ravi Chauhan</p><p><strong>Location:</strong> Market Indaipur</p><p><strong>Mobile / WhatsApp:</strong> 9621216695</p><a class="contact-link" href="tel:+919621216695">📞 Call Clinic</a> <a class="contact-link call" href="https://wa.me/919621216695?text=Namaste%20Dr.%20Ravi%20Chauhan%2C%20mujhe%20clinic%20se%20baat%20karni%20hai.">💬 WhatsApp</a></div><div class="map"><div><h3>📍 Market Indaipur</h3><p>Rohit Health Care Center</p><a class="contact-link" href="https://www.google.com/maps/search/?api=1&query=Market+Indaipur" target="_blank">Open Location in Maps</a></div></div></div></div></section>
-<section class="faq"><div class="container"><div class="title"><h2>Frequently Asked Questions</h2></div><details><summary>Appointment कैसे भेजें?</summary><p>Appointment section में नाम, मोबाइल नंबर और समस्या लिखकर WhatsApp वाला बटन दबाएँ।</p></details><details><summary>Clinic से बात कैसे करें?</summary><p>Call Clinic से सीधे फोन करें या WhatsApp बटन से संदेश भेजें।</p></details></div></section>
-</main>
-<footer><p><strong>Rohit Health Care Center</strong></p><p>Dr. Ravi Chauhan • General Medical Practice • Market Indaipur</p><p>📞 9621216695</p><p>© 2026 Rohit Clinic Digital</p></footer>
-<a class="float" href="https://wa.me/919621216695?text=Namaste%20Dr.%20Ravi%20Chauhan%2C%20mujhe%20clinic%20se%20baat%20karni%20hai.">💬 WhatsApp</a>
-<script>
-function sendWhatsApp(e){
- e.preventDefault();
- var n=document.getElementById('name').value.trim();
- var p=document.getElementById('phone').value.trim();
- var q=document.getElementById('problem').value.trim();
- var t=document.getElementById('time').value;
- var msg='Namaste Dr. Ravi Chauhan,\n\nMujhe appointment/enquiry karni hai.\nNaam: '+n+'\nMobile: '+p+'\nProblem/Enquiry: '+q+'\nPreferred Time: '+t+'\n\nRohit Health Care Center, Market Indaipur';
- window.location.href='https://wa.me/919621216695?text='+encodeURIComponent(msg);
-}
-</script>
-</body>
-</html>   <h3>🚶 नियमित गतिविधि</h3>
-            <p>
-              अपनी क्षमता और स्वास्थ्य स्थिति के अनुसार
-              नियमित physical activity रखें।
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- APPOINTMENT -->
     <section class="appointment" id="appointment">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Appointment Enquiry</h2>
-          <p>
-            Appointment के लिए अपनी जानकारी भरें।
-          </p>
+      <div class="wrap appointment-grid">
+        <div class="appointment-copy">
+          <span class="kicker">अपॉइंटमेंट अनुरोध</span>
+          <h2>अपनी सुविधा से संपर्क करें</h2>
+          <p>नीचे विवरण भरने पर WhatsApp में संदेश तैयार होगा। संदेश भेजने से पहले आप उसे देख और बदल सकते हैं। यह फॉर्म अपने-आप क्लिनिक को कोई डेटा नहीं भेजता।</p>
+          <div class="appointment-points"><span>✓ फोन से सीधा संपर्क</span><span>✓ पसंदीदा समय बताने का विकल्प</span><span>✓ भेजने से पहले संदेश की समीक्षा</span></div>
         </div>
+        <form class="formbox" id="appointmentForm">
+          <h3>अपॉइंटमेंट / पूछताछ</h3>
+          <p>कृपया आवश्यक जानकारी भरें।</p>
+          <div class="formgrid">
+            <div class="field"><label for="patientName">आपका नाम *</label><input id="patientName" name="patientName" type="text" placeholder="पूरा नाम" autocomplete="name" required maxlength="80"></div>
+            <div class="field"><label for="patientPhone">मोबाइल नंबर *</label><input id="patientPhone" name="patientPhone" type="tel" placeholder="10 अंकों का नंबर" autocomplete="tel" inputmode="tel" pattern="[0-9+\-\s]{10,16}" required></div>
+            <div class="field"><label for="visitDate">पसंदीदा तारीख</label><input id="visitDate" name="visitDate" type="date"></div>
+            <div class="field"><label for="visitTime">पसंदीदा समय</label><select id="visitTime" name="visitTime"><option value="">समय चुनें</option><option>सुबह 9–11 बजे</option><option>सुबह 11–दोपहर 2 बजे</option><option>दोपहर 2–शाम 5 बजे</option><option>शाम 5–रात 8 बजे</option></select></div>
+            <div class="field full"><label for="reason">पूछताछ का संक्षिप्त कारण (वैकल्पिक)</label><textarea id="reason" name="reason" placeholder="सिर्फ़ संक्षिप्त जानकारी लिखें; संवेदनशील मेडिकल रिपोर्ट यहाँ न भेजें।" maxlength="500"></textarea></div>
+          </div>
+          <button class="btn btn-primary" type="submit">WhatsApp पर अनुरोध भेजें ↗</button>
+          <p class="form-note">यह ऑनलाइन बुकिंग की पुष्टि नहीं है। समय की पुष्टि के लिए क्लिनिक से बात करें।</p>
+          <p id="formStatus" class="small" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
 
-        <div class="appointment-box">
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">हमसे संपर्क करें</span><h2>Rohit Health Care Center</h2><p>फोन करके क्लिनिक का पता और उपलब्धता कन्फर्म कर लें।</p></div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-row"><span class="round-icon">📍</span><div><strong>क्लिनिक का पता</strong><span>Market Indaipur, Ramnagar, Ambedkar Nagar, Uttar Pradesh, India</span><br><a class="small" href="https://www.google.com/maps/search/?api=1&query=Rohit%20Health%20Care%20Center%20Market%20Indaipur%20Ramnagar%20Ambedkar%20Nagar%20Uttar%20Pradesh" target="_blank" rel="noopener">Google Maps में खोलें ↗</a></div></div>
+            <div class="contact-row"><span class="round-icon">☎️</span><div><strong>फोन</strong><a href="tel:+919621216695">+91 96212 16695</a><br><span class="small">टैप करके कॉल करें</span></div></div>
+            <div class="contact-row"><span class="round-icon">💬</span><div><strong>WhatsApp</strong><a href="https://wa.me/919621216695?text=Namaste%2C%20Rohit%20Health%20Care%20Center%20se%20sampark%20karna%20hai." target="_blank" rel="noopener">WhatsApp चैट खोलें ↗</a><br><span class="small">संदेश भेजने से पहले जाँच लें</span></div></div>
+            <div class="contact-row"><span class="round-icon">🕘</span><div><strong>सामान्य समय</strong><span>रोज़ाना सुबह 9:00 बजे से रात 8:00 बजे तक</span><br><span class="small">छुट्टी या उपलब्धता के लिए पहले कॉल करें</span></div></div>
+          </div>
+          <div>
+            <iframe class="mapframe" title="Market Indaipur, Ramnagar का Google Maps खोज नक्शा" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Market%20Indaipur%2C%20Ramnagar%2C%20Ambedkar%20Nagar%2C%20Uttar%20Pradesh&t=&z=12&ie=UTF8&iwloc=&output=embed"></iframe>
+            <p class="small">नोट: यह क्षेत्र के लिए मैप खोज है, सटीक क्लिनिक पिन नहीं। सही रास्ते के लिए फोन पर लोकेशन की पुष्टि करें।</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <form onsubmit="submitEnquiry(event)">
+    <section class="faq" id="faq">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">अक्सर पूछे जाने वाले सवाल</span><h2>आपके सवाल, आसान जवाब</h2></div>
+        <div class="faq-list">
+          <details><summary>क्लिनिक कहाँ स्थित है?</summary><p>Rohit Health Care Center, Market Indaipur, Ramnagar, Ambedkar Nagar, Uttar Pradesh में है। आने से पहले फोन करके रास्ते की पुष्टि कर लें।</p></details>
+          <details><summary>क्लिनिक से संपर्क कैसे करें?</summary><p>9621216695 पर कॉल करें या इस वेबसाइट के WhatsApp बटन से संदेश भेजें।</p></details>
+          <details><summary>अपॉइंटमेंट फॉर्म भरने पर क्या बुकिंग पक्की हो जाती है?</summary><p>नहीं। फॉर्म WhatsApp में संदेश तैयार करता है। अनुरोध भेजने और क्लिनिक से समय की पुष्टि करने के बाद ही आने का समय तय समझें।</p></details>
+          <details><summary>क्या वेबसाइट से ऑनलाइन इलाज या दवा मिलती है?</summary><p>नहीं। वेबसाइट संपर्क और अपॉइंटमेंट अनुरोध के लिए है। दवा या उपचार का निर्णय व्यक्तिगत जाँच और चिकित्सकीय सलाह के आधार पर होना चाहिए।</p></details>
+        </div>
+        <div class="disclaimer"><strong>महत्वपूर्ण स्वास्थ्य सूचना:</strong> यह वेबसाइट सामान्य जानकारी और क्लिनिक से संपर्क के लिए है; यह आपातकालीन सेवा या व्यक्तिगत चिकित्सा सलाह का विकल्प नहीं है। साँस लेने में कठिनाई, बेहोशी, सीने में तेज़ दर्द, गंभीर एलर्जी या अन्य आपात स्थिति में तुरंत नज़दीकी अस्पताल/आपातकालीन सेवा से मदद लें। WhatsApp पर संवेदनशील मेडिकल रिपोर्ट या निजी जानकारी भेजने से बचें।</div>
+      </div>
+    </section>
+  </main>
 
-            <div class="form-group">
-              <label for="name">नाम</label>
-              <input
-                type="
+  <footer>
+    <div class="wrap footergrid">
+      <div><strong>Rohit Health Care Center</strong><p>Dr. Ravi Chauhan · Market Indaipur, Ramnagar, Ambedkar Nagar, Uttar Pradesh</p><p>© <span id="year"></span> Rohit Clinic Digital. सर्वाधिकार सुरक्षित।</p></div>
+      <div class="footerlinks"><a href="#home">होम</a><a href="#services">स्वास्थ्य जानकारी</a><a href="#appointment">अपॉइंटमेंट</a><a href="#contact">संपर्क</a></div>
+    </div>
+  </footer>
+
+  <div class="floating" aria-label="त्वरित संपर्क">
+    <a class="floatbtn float-call" href="tel:+919621216695" aria-label="कॉल करें" title="कॉल करें">☎</a>
+    <a class="floatbtn float-wa" href="https://wa.me/919621216695?text=Namaste%2C%20Rohit%20Health%20Care%20Center." target="_blank" rel="noopener" aria-label="WhatsApp खोलें" title="WhatsApp">◉</a>
+  </div>
+  <div class="mobilebar"><a class="btn btn-primary" href="tel:+919621216695">☎ कॉल करें</a><a class="btn btn-gold" href="https://wa.me/919621216695?text=Namaste%2C%20Rohit%20Health%20Care%20Center%20se%20sampark%20karna%20hai." target="_blank" rel="noopener">WhatsApp ↗</a></div>
+
+  <script>
+    (function () {
+      const year = document.getElementById("year");
+      if (year) year.textContent = new Date().getFullYear();
+
+      const dateInput = document.getElementById("visitDate");
+      if (dateInput) {
+        const now = new Date();
+        const localDate = new Date(now.getTime() - now.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+        dateInput.min = localDate;
+      }
+
+      const form = document.getElementById("appointmentForm");
+      if (form) {
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+          if (!form.reportValidity()) return;
+          const name = document.getElementById("patientName").value.trim();
+          const phone = document.getElementById("patientPhone").value.trim();
+          const date = document.getElementById("visitDate").value || "तय नहीं";
+          const time = document.getElementById("visitTime").value || "तय नहीं";
+          const reason = document.getElementById("reason").value.trim() || "नहीं बताया";
+          if (!name || !phone) return;
+
+          const message = [
+            "नमस्ते, Rohit Health Care Center में अपॉइंटमेंट/पूछताछ का अनुरोध है।",
+            "नाम: " + name,
+            "संपर्क नंबर: " + phone,
+            "पसंदीदा तारीख: " + date,
+            "पसंदीदा समय: " + time,
+            "संक्षिप्त कारण: " + reason,
+            "कृपया उपलब्धता की पुष्टि करें।"
+          ].join("\n");
+          const status = document.getElementById("formStatus");
+          if (status) status.textContent = "WhatsApp खुल रहा है। संदेश देखकर Send दबाएँ।";
+          const url = "https://wa.me/919621216695?text=" + encodeURIComponent(message);
+          const opened = window.open(url, "_blank", "noopener,noreferrer");
+          if (!opened) window.location.href = url;
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
