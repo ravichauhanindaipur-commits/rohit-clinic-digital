@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local virtual environments
+.venv/
+venv/
+
