@@ -1,5 +1,5 @@
 ROHIT CLINIC DIGITAL — SEO AUDIT REPORT
-Generated: 2026-10-29 18:00:53 IST
+Generated: 2026-10-29 23:08:43 IST
 ======================================================
 Note: This tool checks publicly accessible HTML and does not edit or publish files.
 
@@ -9,19 +9,19 @@ Final URL after redirects: https://ravichauhanindaipur-commits.github.io/rohit-c
 
 ON-PAGE SEO
 Title (53 characters): Rohit Health Care Center | Dr. Ravi Chauhan, Indaipur
-Meta description (173 characters): Rohit Health Care Center, Market Indaipur, Ramnagar, Ambedkar Nagar, Uttar Pradesh. Dr. Ravi Chauhan से सामान्य स्वास्थ्य परामर्श के लिए कॉल करें या WhatsApp पर संपर्क करें।
+Meta description (140 characters): Rohit Health Care Center, Market Indaipur, Ramnagar में सामान्य स्वास्थ्य परामर्श के लिए Dr. Ravi Chauhan से कॉल या WhatsApp पर संपर्क करें।
 Canonical: https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/
 Meta robots: index,follow,max-image-preview:large
 H1 count: 1
   H1 1: स्वस्थ जीवन की ओर एक भरोसेमंद कदम
 H2 count: 6
 Images: 8 total; 0 missing alt text
-Links: 0 internal, 5 external
+Links: 11 internal, 5 external
 Visible text estimate: 4864 characters
 
 RECOMMENDED ACTIONS
 - Title is present and within a practical length range.
-- Review meta description length; aim for a concise, useful summary (roughly 120–160 characters).
+- Meta description is present and a practical length.
 - Keep clinic claims factual; do not add unsupported medical qualifications or promises.
 
 CHECK: https://ravichauhanindaipur-commits.github.io/rohit-clinic-digital/robots.txt
