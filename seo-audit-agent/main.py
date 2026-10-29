@@ -49,7 +49,7 @@ def audit_page(url, lines):
     host = urlparse(response.url).netloc.lower()
     for link in links:
         href = (link.get("href") or "").strip()
-        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+        if not href or href.startswith(("mailto:", "tel:", "javascript:")):
             continue
         absolute = urljoin(response.url, href)
         parsed = urlparse(absolute)
